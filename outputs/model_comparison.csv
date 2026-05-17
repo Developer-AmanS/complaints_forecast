@@ -1,0 +1,5 @@
+model,MAE,RMSE,MAPE_%
+Baseline 1: constant mean,34.01,40.63,35.85
+Baseline 2: seasonal naïve,32.62,41.59,38.2
+Baseline 3: OLS calendar,23.92,30.15,33.46
+Candidate: SARIMAX,23.92,30.19,32.3
