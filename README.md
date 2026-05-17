@@ -373,26 +373,7 @@ analytical.
 
 ---
 
-## 8. Ownership and maintenance
-
-| Responsibility                                                  | Owner                 |
-| --------------------------------------------------------------- | --------------------- |
-| Running the weekly refit and checking the output                | Data science team     |
-| Ensuring the input data pipeline delivers clean, on-schema data | Data engineering team |
-| Acting on the forecast (staffing, rostering decisions)          | Operations team       |
-| Investigating when the forecast diverges from actuals           | On-call rotation      |
-
-**Refresh cadence:** The notebook should be re-run weekly. Monthly, the team
-should review the model comparison table (`outputs/model_comparison.csv`) to
-confirm the production model is still outperforming the baselines.
-
-**Alert threshold:** If the average forecast error over any rolling 14-day
-window exceeds 1.5 times the typical day-to-day variation, that is a signal
-worth investigating before the next weekly run.
-
----
-
-## 9. What I would improve next
+## 8. What I would improve next
 
 These are not wishlist items - they are the specific gaps identified during
 this build, in rough order of value:
