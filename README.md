@@ -2,8 +2,6 @@
 
 ---
 
-> **If you read nothing else, read this.**
-
 I built a system that looks at three years of daily complaint records and
 predicts how many complaints the organisation will receive each day for the
 next 90 days. The forecast comes with a range not just a single number -
